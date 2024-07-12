@@ -42,7 +42,6 @@ pub fn http_post(body: String, url: String, headers: List(#(String, String))) {
     "An error occured"
   })
 }
-
 // pub fn dig_dict(v: Dict(String, a), path: String) {
 //   case path |> string.split(".") {
 //     [] -> v

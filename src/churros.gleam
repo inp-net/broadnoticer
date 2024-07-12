@@ -50,7 +50,7 @@ pub fn run(data: Notice) -> Result(Nil, String) {
       |> result.flatten,
     "while logging in",
   )
-  
+
   io.println("churros: creating announcement")
 
   graphql(
